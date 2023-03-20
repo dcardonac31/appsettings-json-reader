@@ -2,7 +2,7 @@
   "name": "appsettings-json-reader",
   "version": "1.0.0",
   "description": "appsettings-json-reader is a JavaScript package that allows you to easily and efficiently read appsettings.json configuration files.",
-  "main": "appSettings.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/dcardonac31/appsettings-json-reader#readme",
   "dependencies": {
     "fs-extra": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.3"
   }
 }
