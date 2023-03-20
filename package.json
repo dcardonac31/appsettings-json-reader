@@ -1,8 +1,9 @@
 {
-  "name": "appsettings-json-reader",
+  "name": "test-appsettings-json-reader",
   "version": "1.0.0",
   "description": "appsettings-json-reader is a JavaScript package that allows you to easily and efficiently read appsettings.json configuration files.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
