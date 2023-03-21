@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 class AppSettings {
     constructor() {
-        this.fileJson = require('../../appsettings.json');
+        this.fileJson = require('../../../appsettings.json');
     }
     static readAppSettings() {
         AppSettings.instance = new AppSettings();
