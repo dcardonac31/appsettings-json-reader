@@ -1,6 +1,6 @@
 {
   "name": "test-appsettings-json-reader",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "appsettings-json-reader is a JavaScript package that allows you to easily and efficiently read appsettings.json configuration files.",
   "main": "index.js",
   "types": "index.d.ts",
