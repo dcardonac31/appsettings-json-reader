@@ -1,12 +1,10 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-class AppSettings {
+import fileJson from '../../appsettings.json';
+export class AppSettings {
     constructor() {
-        this.fileJson = require('../../appsettings.json');
+        this.fileJson = fileJson;
     }
     static readAppSettings() {
         AppSettings.instance = new AppSettings();
         return AppSettings.instance.fileJson;
     }
 }
-exports.AppSettings = AppSettings;
