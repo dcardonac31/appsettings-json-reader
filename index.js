@@ -1,9 +1,12 @@
-const fs = require('fs-extra');
-
-function readAppSettings() {
-    const appSettingsPath = '../../../appsettings.json';
-    const appSettings = fs.readJsonSync(appSettingsPath);
-    return appSettings;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+class AppSettings {
+    constructor() {
+        this.fileJson = require('../../appsettings.json');
+    }
+    static readAppSettings() {
+        AppSettings.instance = new AppSettings();
+        return AppSettings.instance.fileJson;
+    }
 }
-
-module.exports = { readAppSettings };
+exports.AppSettings = AppSettings;

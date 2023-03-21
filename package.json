@@ -17,9 +17,6 @@
     "url": "https://github.com/dcardonac31/appsettings-json-reader/issues"
   },
   "homepage": "https://github.com/dcardonac31/appsettings-json-reader#readme",
-  "dependencies": {
-    "fs-extra": "^11.1.0"
-  },
   "devDependencies": {
     "@types/node": "^18.15.3"
   }
