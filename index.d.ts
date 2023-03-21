@@ -1,5 +1,5 @@
-export interface AppSettings {
-    [key: string]: any;
-  }
-  
-  export function readAppSettings(): AppSettings;
+export declare class AppSettings {
+  private fileJson;
+  constructor();
+  static readAppSettings(): any;
+}
