@@ -3,7 +3,7 @@
 `appsettings-json-reader` is a package for reading the appsettings.json file located in the root directory of an Angular or NestJS project. It provides an alternative to using environment files.
 #### Installation
 ```
-npm i appsettings-json-reader --save
+npm i appsettings-json-reader
 ```
 
 #### Usage
@@ -66,7 +66,7 @@ MIT
 `appsettings-json-reader` es un paquete para leer el archivo `appsettings.json` ubicado en el directorio raíz de un proyecto Angular o NestJS. Proporciona una alternativa al uso de archivos de entorno.
 #### Instalación
 ```
-npm i appsettings-json-reader --save
+npm i appsettings-json-reader
 ```
 
 #### Uso
