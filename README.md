@@ -1,4 +1,6 @@
 # appsettings-json-reader
+Visit Youtube Channel DacarSoft
+→[DacarSoft](https://www.youtube.com/c/DacarSoft) ←
 ## English
 `appsettings-json-reader` is a package for reading the appsettings.json file located in the root directory of an Angular or NestJS project. It provides an alternative to using environment files.
 #### Installation
@@ -18,6 +20,7 @@ const appSettings = AppSettings.readAppSettings();
 ```
 #### Example in Angular
 
+→[YouTube Video](https://youtu.be/g54HRRW14Jk) ←
 ```
 import { Component, OnInit } from '@angular/core';
 import { AppSettings } from 'appsettings-json-reader';
@@ -62,6 +65,8 @@ MIT
 
 -------------------------------------------------------------------
 # appsettings-json-reader
+Visita el canal de Youtube DacarSoft
+→[DacarSoft](https://www.youtube.com/c/DacarSoft) ←
 ## Español
 `appsettings-json-reader` es un paquete para leer el archivo `appsettings.json` ubicado en el directorio raíz de un proyecto Angular o NestJS. Proporciona una alternativa al uso de archivos de entorno.
 #### Instalación
@@ -80,7 +85,7 @@ const appSettings = AppSettings.readAppSettings();
 
 ```
 #### Ejemplo en Angular
-
+→[YouTube Video](https://youtu.be/g54HRRW14Jk) ←
 ```
 import { Component, OnInit } from '@angular/core';
 import { AppSettings } from 'appsettings-json-reader';
